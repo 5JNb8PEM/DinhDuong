@@ -1,0 +1,42 @@
+{
+  "dinhDuongApp": {
+    "danhGiaCanThiepDD": {
+      "home": {
+        "title": "Đánh giá can thiệp DD",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Đánh giá can thiệp DD",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Đánh giá can thiệp DD",
+        "notFound": "Không Tìm Thấy Đánh giá can thiệp DD"
+      },
+      "created": "Một Đánh giá can thiệp DD mới được tạo với định danh {{ param }}",
+      "updated": "Một Đánh giá can thiệp DD cập nhật với định danh {{ param }}",
+      "deleted": "Một Đánh giá can thiệp DD đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Đánh giá can thiệp DD {{ id }}?"
+      },
+      "detail": {
+        "title": "Đánh giá can thiệp DD"
+      },
+      "id": "ID",
+      "maBN": "Mã BN",
+      "chuanDoanLS": "Chuẩn đoán LS",
+      "bSDieuTri": "BS điều trị",
+      "thayDoiCanNangTrong1Thang": "Thay đổi cân nặng trong 1 tháng",
+      "danhGiaCN": "Đánh giá CN",
+      "khauPhanAn": "Khẩu phần ăn",
+      "danhGiaKPA": "Đánh giá KPA",
+      "trieuChungTieuHoa": "Triệu chứng tiêu hóa",
+      "mucDo": "Mức độ",
+      "danhGiaMD": "Đánh giá MĐ",
+      "giamChucNangHoatDong": "Giảm chức năng hoạt động",
+      "danhGiaCNHD": "Đánh giá CNHĐ",
+      "stress": "Stress",
+      "danhGiaStress": "Đánh giá Stress",
+      "refeeding": "Refeeding",
+      "danhGiaRefeeding": "Đánh giá Refeeding",
+      "tongDiem": "Tổng điểm",
+      "phieuSuatAn": "Phiếu suất ăn",
+      "toaThuoc": "Toa thuốc"
+    }
+  }
+}

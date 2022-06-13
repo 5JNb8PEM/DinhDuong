@@ -1,0 +1,36 @@
+{
+  "dinhDuongApp": {
+    "dieuTri": {
+      "home": {
+        "title": "Điều trị",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Điều trị",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Điều trị",
+        "notFound": "Không Tìm Thấy Điều trị"
+      },
+      "created": "Một Điều trị mới được tạo với định danh {{ param }}",
+      "updated": "Một Điều trị cập nhật với định danh {{ param }}",
+      "deleted": "Một Điều trị đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Điều trị {{ id }}?"
+      },
+      "detail": {
+        "title": "Điều trị"
+      },
+      "id": "ID",
+      "maDieuTri": "Mã điều trị",
+      "hoTen": "Họ tên",
+      "maBenhAn": "Mã bệnh án",
+      "tenBSDieuTri": "Tên BS điều trị",
+      "nguoiNha": "Người nhà",
+      "giuong": "Giường",
+      "maTheBHYT": "Mã thẻ  BHYT",
+      "ngayVaoKhoa": "Ngày vào khoa",
+      "ngayRaVien": "Ngày ra viện",
+      "bVChuyen": "BV chuyên",
+      "ketQuaDieuTri": "Kết quả điều trị",
+      "lichSuChuyenKhoa": "Lịch sữ chuyển khoa",
+      "hoaDon": "Hóa đơn"
+    }
+  }
+}

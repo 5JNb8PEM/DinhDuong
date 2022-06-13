@@ -1,0 +1,27 @@
+{
+  "dinhDuongApp": {
+    "baoHiem": {
+      "home": {
+        "title": "Bảo hiểm",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Bảo hiểm",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Bảo hiểm",
+        "notFound": "Không tìm thấy Bảo hiểm"
+      },
+      "created": "Một Bảo hiểm mới được tạo với định danh {{ param }}",
+      "updated": "Một Bảo hiểm cập nhật với định danh {{ param }}",
+      "deleted": "Một Bảo hiểm đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Bảo hiểm {{ id }}?"
+      },
+      "detail": {
+        "title": "Bảo hiểm"
+      },
+      "id": "ID",
+      "maTheBHYT": "Mã thẻ BHYT",
+      "doiTuong": "Đối tượng",
+      "baoHiemThanhToan": "Bảo hiểm thanh toán",
+      "hoaDon": "Hóa đơn"
+    }
+  }
+}

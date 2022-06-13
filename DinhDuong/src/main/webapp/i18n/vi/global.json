@@ -7,6 +7,16 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Thực thể",
+        "benhNhan": "Bệnh nhân",
+        "dieuTri": "Dieu Tri",
+        "thongTinSangLocVaDanhGiaDd": "Thông tin sàng lọc và đánh giá DD",
+        "giayMoiDanhGia": "Giấy mời đánh giá",
+        "hoaDon": "Hóa đơn",
+        "danhGiaCanThiepDd": "Đánh giá can thiệp DD",
+        "toaThuoc": "Toa Thuốc",
+        "thuoc": "Thuốc",
+        "phieuSuatAn": "Phiếu suất ăn",
+        "baoHiem": "Bảo hiểm",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

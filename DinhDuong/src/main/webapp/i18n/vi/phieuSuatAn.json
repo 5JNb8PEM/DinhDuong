@@ -1,0 +1,33 @@
+{
+  "dinhDuongApp": {
+    "phieuSuatAn": {
+      "home": {
+        "title": "Phiếu suất ăn",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Phiếu suất ăn",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Phiếu suất ăn",
+        "notFound": "Không tìm thấy Phiếu suất ăn"
+      },
+      "created": "Một Phiếu suất ăn mới được tạo với định danh {{ param }}",
+      "updated": "Một Phiếu suất ăn cập nhật với định danh {{ param }}",
+      "deleted": "Một Phiếu suất ăn đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Phiếu suất ăn {{ id }}?"
+      },
+      "detail": {
+        "title": "Phiếu suất ăn"
+      },
+      "id": "ID",
+      "tenDv": "Tên Dv",
+      "maDV": "Mã DV",
+      "maBN": "Mã BN",
+      "maTheBHYT": "Mã thẻ BHYT",
+      "tGSuDung": "TG sử dụng",
+      "tGChiDinh": "TG chỉ định",
+      "chuanDoan": "Chuẩn đoán",
+      "chuanDoanKT": "Chuẩn đoán KT",
+      "ghiChu": "Ghi chú",
+      "hoaDon": "Hóa đơn"
+    }
+  }
+}

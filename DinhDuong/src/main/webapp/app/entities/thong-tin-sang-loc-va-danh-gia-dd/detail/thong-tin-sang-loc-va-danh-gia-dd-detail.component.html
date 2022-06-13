@@ -1,0 +1,88 @@
+<div class="d-flex justify-content-center">
+  <div class="col-8">
+    <div *ngIf="thongTinSangLocVaDanhGiaDD">
+      <h2 data-cy="thongTinSangLocVaDanhGiaDDDetailsHeading">
+        <span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.detail.title">Thong Tin Sang Loc Va Danh Gia DD</span>
+      </h2>
+
+      <hr />
+
+      <jhi-alert-error></jhi-alert-error>
+
+      <jhi-alert></jhi-alert>
+
+      <dl class="row-md jh-entity-details">
+        <dt><span jhiTranslate="global.field.id">ID</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.id }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.maBN">Ma BN</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.maBN }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.mangThai">Mang Thai</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.mangThai }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.bMI">B MI</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.bMI }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.danhGiaBMI">Danh Gia BMI</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.danhGiaBMI }}</span>
+        </dd>
+        <dt>
+          <span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.phanTramCanNangTrong3Thang">Phan Tram Can Nang Trong 3 Thang</span>
+        </dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.phanTramCanNangTrong3Thang }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.danhGiaCanNang">Danh Gia Can Nang</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.danhGiaCanNang }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.anUongTrongTuan">An Uong Trong Tuan</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.anUongTrongTuan }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.danhGiaAnUong">Danh Gia An Uong</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.danhGiaAnUong }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.thoiGianChiDinh">Thoi Gian Chi Dinh</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.thoiGianChiDinh | formatMediumDatetime }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.nguyCoSDD">Nguy Co SDD</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.nguyCoSDD }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.cheDoAn">Che Do An</span></dt>
+        <dd>
+          <span>{{ thongTinSangLocVaDanhGiaDD.cheDoAn }}</span>
+        </dd>
+        <dt><span jhiTranslate="dinhDuongApp.thongTinSangLocVaDanhGiaDD.danhGiaCanThiepDD">Danh Gia Can Thiep DD</span></dt>
+        <dd>
+          <div *ngIf="thongTinSangLocVaDanhGiaDD.danhGiaCanThiepDD">
+            <a [routerLink]="['/danh-gia-can-thiep-dd', thongTinSangLocVaDanhGiaDD.danhGiaCanThiepDD?.id, 'view']">{{
+              thongTinSangLocVaDanhGiaDD.danhGiaCanThiepDD?.id
+            }}</a>
+          </div>
+        </dd>
+      </dl>
+
+      <button type="submit" (click)="previousState()" class="btn btn-info" data-cy="entityDetailsBackButton">
+        <fa-icon icon="arrow-left"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back">Back</span>
+      </button>
+
+      <button
+        type="button"
+        [routerLink]="['/thong-tin-sang-loc-va-danh-gia-dd', thongTinSangLocVaDanhGiaDD.id, 'edit']"
+        class="btn btn-primary"
+      >
+        <fa-icon icon="pencil-alt"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit">Edit</span>
+      </button>
+    </div>
+  </div>
+</div>

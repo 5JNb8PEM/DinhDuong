@@ -1,0 +1,43 @@
+{
+  "dinhDuongApp": {
+    "benhNhan": {
+      "home": {
+        "title": "Bệnh nhân",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Bệnh nhân",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Bệnh nhân",
+        "notFound": "Không tìm thấy Bệnh nhân"
+      },
+      "created": "Một Bệnh nhân mới được tạo với định danh {{ param }}",
+      "updated": "Một Bệnh nhân cập nhật với định danh {{ param }}",
+      "deleted": "Một Bệnh nhân đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Bệnh nhân {{ id }}?"
+      },
+      "detail": {
+        "title": "Bệnh nhân"
+      },
+      "id": "ID",
+      "hoTen": "Họ tên",
+      "maBN": "Mã BN",
+      "ngaySinh": "Ngày sinh",
+      "gioiTinh": "Giới tính",
+      "diaChi": "Địa chỉ",
+      "ngheNghiep": "Nghề nghiệp",
+      "chieuCao": "Chiều cao",
+      "canHT": "Cân HT",
+      "canTC": "Cân TC",
+      "vongCT": "Vòng CT",
+      "bMI": "BMI",
+      "maTheBHYT": "Mã thẻ BHYT",
+      "sDT": "SĐT",
+      "baoHiem": "Bảo hiểm",
+      "dieuTri": "Điều trị",
+      "thongTinSangLocVaDanhGiaDD": "Thông tin sàng lọc và đánh giá dinh dưỡng",
+      "hoaDon": "Hóa đơn",
+      "danhGiaCanThiepDD": "Đánh giá can thiệp DD",
+      "phieuSuatAn": "Phiếu suất ăn",
+      "giayMoiDanhGia": "Giấy mời đánh giá"
+    }
+  }
+}

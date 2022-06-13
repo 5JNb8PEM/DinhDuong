@@ -1,0 +1,35 @@
+{
+  "dinhDuongApp": {
+    "thongTinSangLocVaDanhGiaDD": {
+      "home": {
+        "title": "Thông tin sàng và đánh giá DD",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Thông tin sàng và đánh giá DD",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thông tin sàng và đánh giá DD",
+        "notFound": "Không tìm thấy Thông tin sàng và đánh giá DD"
+      },
+      "created": "Một Thông tin sàng và đánh giá DD mới được tạo với định danh {{ param }}",
+      "updated": "Một Thông tin sàng và đánh giá DD cập nhật với định danh {{ param }}",
+      "deleted": "Một Thông tin sàng và đánh giá DD đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thông tin sàng và đánh giá DD {{ id }}?"
+      },
+      "detail": {
+        "title": "Thông tin sàng và đánh giá DD"
+      },
+      "id": "ID",
+      "maBN": "Mã BN",
+      "mangThai": "Mang Thai",
+      "bMI": "BMI",
+      "danhGiaBMI": "Đánh giá BMI",
+      "phanTramCanNangTrong3Thang": "Phần trăm cân nặng trong 3 tháng",
+      "danhGiaCanNang": "Đánh giá cân nặng",
+      "anUongTrongTuan": "Ăn uống trong tuần",
+      "danhGiaAnUong": "Đánh giá ăn uống",
+      "thoiGianChiDinh": "Thời gian chỉ định",
+      "nguyCoSDD": "Nguy cơ SDD",
+      "cheDoAn": "Chế độ ăn",
+      "danhGiaCanThiepDD": "Đánh giá can thiệp DD"
+    }
+  }
+}

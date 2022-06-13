@@ -1,0 +1,39 @@
+{
+  "dinhDuongApp": {
+    "toaThuoc": {
+      "home": {
+        "title": "Toa thuốc",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Toa thuốc",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Toa thuốc",
+        "notFound": "Không tìm thấy Toa thuốc"
+      },
+      "created": "Một Toa thuốc mới được tạo với định danh {{ param }}",
+      "updated": "Một Toa thuốc cập nhật với định danh {{ param }}",
+      "deleted": "Một Toa thuốc đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Toa thuốc {{ id }}?"
+      },
+      "detail": {
+        "title": "Toa thuốc"
+      },
+      "id": "ID",
+      "iCD10": "ICD 10",
+      "maBA": "Mã BA",
+      "maBN": "Mã BN",
+      "loaiThuoc": "Loại thuốc",
+      "doiTuong": "Đối tượng",
+      "tiLe": "Tỉ lệ",
+      "soNgayHenTaiKham": "Số ngày hẹn tái khám",
+      "capPhieuHenKham": "Cấp phiếu hẹn khám",
+      "loiDanBacSi": "Lời dặn bác sĩ",
+      "ngayChiDinh": "Ngày chỉ định",
+      "ngayDung": "Ngày dùng",
+      "soNgaykeDon": "Số ngày kê đơn",
+      "khoThuoc": "Kho thuốc",
+      "thuoc": "Thuốc",
+      "hoaDon": "Hóa đơn",
+      "benhNhan": "Bệnh nhân"
+    }
+  }
+}

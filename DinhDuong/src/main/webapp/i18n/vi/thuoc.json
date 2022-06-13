@@ -1,0 +1,35 @@
+{
+  "dinhDuongApp": {
+    "thuoc": {
+      "home": {
+        "title": "Thuốc",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Thuốc",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Thuốc",
+        "notFound": "Không tìm thấy Thuốc"
+      },
+      "created": "Một Thuốc mới được tạo với định danh {{ param }}",
+      "updated": "Một Thuốc cập nhật với định danh {{ param }}",
+      "deleted": "Một Thuốc đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Thuốc {{ id }}?"
+      },
+      "detail": {
+        "title": "Thuốc"
+      },
+      "id": "ID",
+      "tenThuoc": "Tên thuốc",
+      "duongDung": "Đường dùng",
+      "soLuong": "Số lượng",
+      "cachDung": "Cách dùng",
+      "hoatChat": "Hoạt chất",
+      "dVT": "DVT",
+      "donGia": "Đơn giá",
+      "thanhTien": "Thành tiền",
+      "loaiTTCu": "Loại TT củ",
+      "loaiTTMoi": "Loại TT mới",
+      "lieuDung": "Liều dùng",
+      "kS": "KS"
+    }
+  }
+}

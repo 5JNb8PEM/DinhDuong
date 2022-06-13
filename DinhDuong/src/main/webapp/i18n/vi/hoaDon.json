@@ -1,0 +1,30 @@
+{
+  "dinhDuongApp": {
+    "hoaDon": {
+      "home": {
+        "title": "Hóa đơn",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Hóa đơn",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Hóa đơn",
+        "notFound": "Không tìm thấy Hóa đơn"
+      },
+      "created": "Một Hóa đơn mới được tạo với định danh {{ param }}",
+      "updated": "Một Hóa đơn cập nhật với định danh {{ param }}",
+      "deleted": "Một Hóa đơn đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Hóa đơn {{ id }}?"
+      },
+      "detail": {
+        "title": "Hóa đơn"
+      },
+      "id": "ID",
+      "noiDung": "Nội dung",
+      "maBN": "Mã BN",
+      "maTheBHYT": "Mã thẻ BHYT",
+      "maDV": "Mã DV",
+      "tamUng": "Tạm ứng",
+      "daNop": "Đã nộp",
+      "tong": "Tổng"
+    }
+  }
+}

@@ -15,7 +15,24 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609015957_added_entity_BenhNhan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609015958_added_entity_DieuTri.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020044_added_entity_ThongTinSangLocVaDanhGiaDD.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020045_added_entity_GiayMoiDanhGia.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020046_added_entity_HoaDon.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020047_added_entity_DanhGiaCanThiepDD.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020048_added_entity_ToaThuoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020049_added_entity_Thuoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020050_added_entity_PhieuSuatAn.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020051_added_entity_BaoHiem.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20220609015957_added_entity_constraints_BenhNhan.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609015958_added_entity_constraints_DieuTri.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020044_added_entity_constraints_ThongTinSangLocVaDanhGiaDD.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020047_added_entity_constraints_DanhGiaCanThiepDD.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020048_added_entity_constraints_ToaThuoc.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020050_added_entity_constraints_PhieuSuatAn.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20220609020051_added_entity_constraints_BaoHiem.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>
